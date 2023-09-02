@@ -23,12 +23,15 @@ function LoginPage() {
       let response;
 
       if (userType === "user") {
-        response = await axios.post("http://localhost:4000/user/login", form);
+        response = await axios.post(
+          "https://job-server.cyclic.cloud/user/login",
+          form
+        );
       }
 
       if (userType === "business") {
         response = await axios.post(
-          "http://localhost:4000/business/login",
+          "https://job-server.cyclic.cloud/business/login",
           form
         );
       }

@@ -58,11 +58,14 @@ function SignupPage() {
       console.log("Form com a url da foto adicionado");
 
       if (userType === "user") {
-        await axios.post("http://localhost:4000/user/signup", formWithPhoto);
+        await axios.post(
+          "https://job-server.cyclic.cloud/user/signup",
+          formWithPhoto
+        );
       }
       if (userType === "business") {
         await axios.post(
-          "http://localhost:4000/business/signup",
+          "https://job-server.cyclic.cloud/business/signup",
           formWithPhoto
         );
       }
