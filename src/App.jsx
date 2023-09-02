@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import ProtectRoute from "./components/ProtectRoute";
 import ProfileBusinessPage from "./pages/ProfileBusinessPage";
 import BusinessCreateOffer from "./pages/BusinessCreateoffer";
-import JobsPage from "./pages/jobsPage";
+import JobsPage from "./pages/JobsPage";
 import JobDetailPage from "./pages/JobDetailPage";
 import HomePage from "./pages/HomePage";
 import EditOffer from "./pages/EditOffer";
